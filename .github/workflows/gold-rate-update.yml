@@ -8,6 +8,10 @@ on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   update-gold-rates:
     runs-on: ubuntu-latest
@@ -54,5 +58,3 @@ jobs:
           git add gold_rates.json
           git commit -m "Update gold rates - $(date)" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
