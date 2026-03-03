@@ -1,0 +1,313 @@
+2026-03-04 00:12:56 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:12:56 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:12:56 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:12:56 - GoldRateUpdate - INFO - Fetching gold rates from https://api.metals.live/v1/spot/gold
+2026-03-04 00:12:56 - GoldRateUpdate - ERROR - Failed to fetch gold rates: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:12:56 - GoldRateUpdate - ERROR - Error getting rates with comparison: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:12:56 - GoldRateUpdate - ERROR - Error in scheduled job: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:13:32 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:13:32 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:13:32 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:13:32 - GoldRateUpdate - INFO - Fetching gold rates from https://api.metals.live/v1/spot/gold
+2026-03-04 00:13:32 - GoldRateUpdate - WARNING - SSL verification failed, retrying without verification...
+2026-03-04 00:13:32 - GoldRateUpdate - ERROR - Failed to fetch gold rates: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:13:32 - GoldRateUpdate - ERROR - Error getting rates with comparison: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:13:32 - GoldRateUpdate - ERROR - Error in scheduled job: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:14:07 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:14:07 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:14:07 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:14:07 - GoldRateUpdate - INFO - Fetching gold rates from https://api.metals.live/v1/spot/gold
+2026-03-04 00:14:08 - GoldRateUpdate - WARNING - SSL verification failed: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold ...
+2026-03-04 00:14:08 - GoldRateUpdate - INFO - Retrying without SSL verification...
+2026-03-04 00:14:10 - GoldRateUpdate - ERROR - Failed to fetch gold rates: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:14:10 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:14:10 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:14:10 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:14:10 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------
+
+24K Carat Gold: INCREASED ⬆️
+  Current Rate: ₹ 2,300.50
+  Previous Rate: ₹ 0.00
+  Absolute Change: +2300.50 INR
+  Percentage Change: +0.00%
+
+22K Carat Gold: INCREASED ⬆️
+  Current Rate: ₹ 2,108.79
+  Previous Rate: ₹ 0.00
+  Absolute Change: +2108.79 INR
+  Percentage Change: +0.00%
+
+--------------------------------------------------
+2026-03-04 00:14:10 - GoldRateUpdate - WARNING - Email configuration incomplete. Please set environment variables.
+2026-03-04 00:14:10 - GoldRateUpdate - WARNING - Email notification could not be sent (check configuration)
+2026-03-04 00:14:10 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:15:07 - GoldRateUpdate - WARNING - Task 'GoldRateUpdate' not found in Task Scheduler
+2026-03-04 00:19:34 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:19:34 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:19:34 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:19:34 - GoldRateUpdate - INFO - Fetching gold rates from https://api.metals.live/v1/spot/gold
+2026-03-04 00:19:35 - GoldRateUpdate - WARNING - SSL verification failed: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold ...
+2026-03-04 00:19:35 - GoldRateUpdate - INFO - Retrying without SSL verification...
+2026-03-04 00:19:37 - GoldRateUpdate - ERROR - Failed to fetch gold rates: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot/gold (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1002)')))
+2026-03-04 00:19:37 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:19:37 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:19:37 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:19:37 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:19:37 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------
+
+24K Carat Gold: UNCHANGED →
+  Current Rate: ₹ 2,300.50
+  Previous Rate: ₹ 2,300.50
+  Absolute Change: +0.00 INR
+  Percentage Change: +0.00%
+
+22K Carat Gold: UNCHANGED →
+  Current Rate: ₹ 2,108.79
+  Previous Rate: ₹ 2,108.79
+  Absolute Change: +0.00 INR
+  Percentage Change: +0.00%
+
+--------------------------------------------------
+2026-03-04 00:19:37 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:19:41 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:19:41 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:20:17 - GoldRateUpdate - INFO - Setting up Windows Task Scheduler
+2026-03-04 00:20:17 - GoldRateUpdate - INFO - Creating Windows Task Scheduler task: GoldRateUpdate
+2026-03-04 00:20:17 - GoldRateUpdate - INFO - Task 'GoldRateUpdate' created successfully
+2026-03-04 00:20:17 - GoldRateUpdate - INFO - Task will run daily at 09:00
+2026-03-04 00:20:37 - GoldRateUpdate - INFO - Task 'GoldRateUpdate' found in Task Scheduler
+2026-03-04 00:38:00 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:38:00 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:38:00 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:38:00 - GoldRateUpdate - INFO - Fetching gold rates from https://www.goldpriceindia.com/
+2026-03-04 00:38:02 - GoldRateUpdate - ERROR - Failed to fetch gold rates: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:38:02 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:38:02 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:38:02 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:38:02 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:38:02 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 7,250.00
+    Previous: ₹ 0.00
+    Change: +7250.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 72,500.00
+    Previous: ₹ 0.00
+    Change: +72500.00 INR (+0.00%)
+
+22K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 6,750.00
+    Previous: ₹ 0.00
+    Change: +6750.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 67,500.00
+    Previous: ₹ 0.00
+    Change: +67500.00 INR (+0.00%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:38:02 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:38:06 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:38:06 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:40:47 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:40:47 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:40:47 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:40:47 - GoldRateUpdate - INFO - Fetching gold rates from https://www.goldpriceindia.com/
+2026-03-04 00:40:48 - GoldRateUpdate - ERROR - Failed to fetch gold rates: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:40:48 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:40:48 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:40:48 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:40:48 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:40:48 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: UNCHANGED →
+  Per Gram:
+    Current: ₹ 7,250.00
+    Previous: ₹ 7,250.00
+    Change: +0.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 72,500.00
+    Previous: ₹ 72,500.00
+    Change: +0.00 INR (+0.00%)
+
+22K Carat Gold: UNCHANGED →
+  Per Gram:
+    Current: ₹ 6,750.00
+    Previous: ₹ 6,750.00
+    Change: +0.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 67,500.00
+    Previous: ₹ 67,500.00
+    Change: +0.00 INR (+0.00%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:40:48 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:40:52 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:40:52 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:42:20 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:42:20 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:42:20 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:42:20 - GoldRateUpdate - INFO - Fetching gold rates from https://www.goldpriceindia.com/
+2026-03-04 00:42:21 - GoldRateUpdate - ERROR - Failed to fetch gold rates: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:42:21 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:42:21 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:42:21 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:42:21 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:42:21 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 16,080.00
+    Previous: ₹ 7,250.00
+    Change: +8830.00 INR (+121.79%)
+  Per 10 Grams:
+    Current: ₹ 160,800.00
+    Previous: ₹ 72,500.00
+    Change: +88300.00 INR (+121.79%)
+
+22K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 14,740.00
+    Previous: ₹ 6,750.00
+    Change: +7990.00 INR (+118.37%)
+  Per 10 Grams:
+    Current: ₹ 147,400.00
+    Previous: ₹ 67,500.00
+    Change: +79900.00 INR (+118.37%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:42:21 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:42:25 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:42:25 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:43:48 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:43:48 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:43:48 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:43:48 - GoldRateUpdate - INFO - Fetching gold rates from https://www.goldpriceindia.com/
+2026-03-04 00:43:49 - GoldRateUpdate - ERROR - Failed to fetch gold rates: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:43:49 - GoldRateUpdate - WARNING - Using mock data for demonstration purposes
+2026-03-04 00:43:49 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:43:49 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:43:49 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:43:49 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: DECREASED ⬇️
+  Per Gram:
+    Current: ₹ 16,080.00
+    Previous: ₹ 16,750.50
+    Change: -670.50 INR (-4.00%)
+  Per 10 Grams:
+    Current: ₹ 160,800.00
+    Previous: ₹ 167,505.00
+    Change: -6705.00 INR (-4.00%)
+
+22K Carat Gold: DECREASED ⬇️
+  Per Gram:
+    Current: ₹ 14,740.00
+    Previous: ₹ 15,354.60
+    Change: -614.60 INR (-4.00%)
+  Per 10 Grams:
+    Current: ₹ 147,400.00
+    Previous: ₹ 153,546.00
+    Change: -6146.00 INR (-4.00%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:43:49 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:43:53 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:43:53 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:47:04 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:47:04 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:47:04 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:47:04 - GoldRateUpdate - INFO - Fetching gold rates and history from https://www.goldpriceindia.com/
+2026-03-04 00:47:05 - GoldRateUpdate - ERROR - Failed to fetch from website: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:47:05 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:47:05 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:47:05 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 16,080.00
+    Previous: ₹ 0.00
+    Change: +16080.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 160,800.00
+    Previous: ₹ 0.00
+    Change: +160800.00 INR (+0.00%)
+
+22K Carat Gold: INCREASED ⬆️
+  Per Gram:
+    Current: ₹ 14,740.00
+    Previous: ₹ 0.00
+    Change: +14740.00 INR (+0.00%)
+  Per 10 Grams:
+    Current: ₹ 147,400.00
+    Previous: ₹ 0.00
+    Change: +147400.00 INR (+0.00%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:47:05 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:47:09 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:47:09 - GoldRateUpdate - INFO - Scheduled update job completed successfully
+2026-03-04 00:47:53 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:47:53 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:47:53 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:47:53 - GoldRateUpdate - INFO - Fetching gold rates and history from https://www.goldpriceindia.com/
+2026-03-04 00:47:54 - GoldRateUpdate - ERROR - Failed to fetch from website: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:47:54 - GoldRateUpdate - INFO - Will use previously saved data for comparison
+2026-03-04 00:47:54 - GoldRateUpdate - WARNING - Website not accessible, using saved data
+2026-03-04 00:47:54 - GoldRateUpdate - ERROR - Error getting rates with comparison: 'GoldRateClient' object has no attribute 'load_previous_rates'
+2026-03-04 00:47:54 - GoldRateUpdate - ERROR - Error in scheduled job: 'GoldRateClient' object has no attribute 'load_previous_rates'
+2026-03-04 00:48:16 - GoldRateUpdate - INFO - Running gold rate update in immediate mode
+2026-03-04 00:48:16 - GoldRateUpdate - INFO - Running gold rate update immediately
+2026-03-04 00:48:16 - GoldRateUpdate - INFO - Starting scheduled gold rate update job
+2026-03-04 00:48:16 - GoldRateUpdate - INFO - Fetching gold rates and history from https://www.goldpriceindia.com/
+2026-03-04 00:48:17 - GoldRateUpdate - ERROR - Failed to fetch from website: 403 Client Error: Forbidden for url: https://www.goldpriceindia.com/
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Will use previously saved data for comparison
+2026-03-04 00:48:17 - GoldRateUpdate - WARNING - Website not accessible, using saved data
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Loaded previous gold rates from file
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Using saved previous rates from file
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Saved current gold rates to file
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Rates displayed successfully
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - 
+📊 GOLD RATE ANALYSIS
+--------------------------------------------------------------------------------
+
+24K Carat Gold: DECREASED ⬇️
+  Per Gram:
+    Current: ₹ 16,080.00
+    Previous: ₹ 16,750.50
+    Change: -670.50 INR (-4.00%)
+  Per 10 Grams:
+    Current: ₹ 160,800.00
+    Previous: ₹ 167,505.00
+    Change: -6705.00 INR (-4.00%)
+
+22K Carat Gold: DECREASED ⬇️
+  Per Gram:
+    Current: ₹ 14,740.00
+    Previous: ₹ 15,354.60
+    Change: -614.60 INR (-4.00%)
+  Per 10 Grams:
+    Current: ₹ 147,400.00
+    Previous: ₹ 153,546.00
+    Change: -6146.00 INR (-4.00%)
+
+--------------------------------------------------------------------------------
+2026-03-04 00:48:17 - GoldRateUpdate - INFO - Sending email to wanarechhaya@gmail.com
+2026-03-04 00:48:21 - GoldRateUpdate - INFO - Email sent successfully
+2026-03-04 00:48:21 - GoldRateUpdate - INFO - Scheduled update job completed successfully
