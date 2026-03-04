@@ -35,6 +35,9 @@ jobs:
         run: |
           echo "EMAIL_SENDER=${{ secrets.EMAIL_SENDER }}" > .env
           echo "EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}" >> .env
+          echo "EMAIL_RECIPIENT=${{ secrets.EMAIL_SENDER }}" >> .env
+          echo "SMTP_SERVER=smtp.gmail.com" >> .env
+          echo "SMTP_PORT=587" >> .env
           echo "SCHEDULE_HOUR=9" >> .env
           echo "SCHEDULE_MINUTE=0" >> .env
           echo "METALS_API_URL=https://www.goldpriceindia.com/" >> .env
