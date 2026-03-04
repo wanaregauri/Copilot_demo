@@ -1,5 +1,6 @@
 """Email module for sending gold rate reports."""
 import smtplib
+import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -239,6 +240,7 @@ class EmailReporter:
             True if email sent successfully, False otherwise
         """
         if not self._validate_config():
+            logger.error("Email validation failed: Missing EMAIL_SENDER, EMAIL_PASSWORD, or EMAIL_RECIPIENT")
             return False
         
         try:
@@ -253,22 +255,37 @@ class EmailReporter:
             html_part = MIMEText(html_content, 'html')
             msg.attach(html_part)
             
-            # Send email
+            # Send email with SSL context
             logger.info(f"Sending email to {self.recipient}")
+            logger.info(f"Using SMTP server: {self.smtp_server}:{self.smtp_port}")
+            
+            # Create SSL context for secure connection
+            context = ssl.create_default_context()
+            
             with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
-                server.starttls()
+                server.starttls(context=context)
+                logger.info("TLS connection established")
+                
+                logger.info(f"Logging in with sender: {self.sender}")
                 server.login(self.sender, self.password)
+                logger.info("Login successful")
+                
+                logger.info(f"Sending message to {self.recipient}")
                 server.send_message(msg)
+                logger.info("Message sent")
             
             logger.info("Email sent successfully")
             return True
         
-        except smtplib.SMTPAuthenticationError:
-            logger.error("Email authentication failed. Check credentials in .env file")
+        except smtplib.SMTPAuthenticationError as e:
+            logger.error(f"Email authentication failed: {str(e)}")
+            logger.error("Check EMAIL_SENDER and EMAIL_PASSWORD in secrets")
             return False
         except smtplib.SMTPException as e:
             logger.error(f"SMTP error occurred: {str(e)}")
             return False
         except Exception as e:
             logger.error(f"Failed to send email: {str(e)}")
+            import traceback
+            logger.error(traceback.format_exc())
             return False

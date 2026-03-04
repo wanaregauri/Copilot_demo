@@ -35,7 +35,7 @@ jobs:
         run: |
           echo "EMAIL_SENDER=${{ secrets.EMAIL_SENDER }}" > .env
           echo "EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}" >> .env
-          echo "EMAIL_RECIPIENT=${{ secrets.EMAIL_SENDER }}" >> .env
+          echo "EMAIL_RECIPIENT=${{ secrets.EMAIL_RECIPIENT }}" >> .env
           echo "SMTP_SERVER=smtp.gmail.com" >> .env
           echo "SMTP_PORT=587" >> .env
           echo "SCHEDULE_HOUR=9" >> .env
@@ -44,6 +44,8 @@ jobs:
       
       - name: Run gold rate update
         run: python main.py --run-once
+        env:
+          PYTHONUNBUFFERED: 1
       
       - name: Upload logs
         if: always()
